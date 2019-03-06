@@ -4,8 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>HHW Gaming</title>
+        <title>{{ config('app.name', 'HHW Gaming') }}</title>
         <link href="{{asset('css')}}/app.css" rel="stylesheet">
+        <link href="{{asset('css')}}/login_main_style.css" rel="stylesheet">
     </head>
     <body>
         @yield('content')
