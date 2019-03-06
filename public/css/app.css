@@ -11216,7 +11216,7 @@ img {
 
 .home_banner_area {
   z-index: 1;
-  background: url(/images/canvas.png?571aa389adde154b1dd00b5bf03393b3) no-repeat center center;
+  background: url(/images/img/banner/canvas.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -11280,7 +11280,7 @@ img {
 .blog_banner .banner_inner .overlay,
 .blog_banner .banner_inner .single-gallery .content,
 .single-gallery .blog_banner .banner_inner .content {
-  background: url(/images/banner-2.jpg?62686fcfc741a6e56fd301e3d894771f) no-repeat scroll center center;
+  background: url(/images/img/banner/banner-2.jpg) no-repeat scroll center center;
   opacity: 0.5;
   height: 125%;
   position: absolute;
@@ -11324,7 +11324,7 @@ img {
   position: relative;
   min-height: 430px;
   z-index: 1;
-  background: url(/images/canvas.png?571aa389adde154b1dd00b5bf03393b3) no-repeat center center;
+  background: url(/images/img/banner/canvas.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -13516,7 +13516,7 @@ h6 {
 }
 
 .primary-checkbox input:checked + label {
-  background: url(/images/primary-check.png?01ada071fa76f508a733a6ce1c8ff582) no-repeat center center/cover;
+  background: url(/images/img/elements/primary-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -13554,7 +13554,7 @@ h6 {
 }
 
 .confirm-checkbox input:checked + label {
-  background: url(/images/success-check.png?2f4c99a8e2e7ad4e02883e38f9ec67a2) no-repeat center center/cover;
+  background: url(/images/img/elements/success-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -13597,7 +13597,7 @@ h6 {
 }
 
 .disabled-checkbox input:checked + label {
-  background: url(/images/disabled-check.png?fad4cdc2c668bc162608e86433c87b07) no-repeat center center/cover;
+  background: url(/images/img/elements/disabled-check.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -13635,7 +13635,7 @@ h6 {
 }
 
 .primary-radio input:checked + label {
-  background: url(/images/primary-radio.png?741c84162a242460e6ac8c7de4501f64) no-repeat center center/cover;
+  background: url(/images/img/elements/primary-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -13673,7 +13673,7 @@ h6 {
 }
 
 .confirm-radio input:checked + label {
-  background: url(/images/success-radio.png?663f7df81d6208c5816f81f1ae444e87) no-repeat center center/cover;
+  background: url(/images/img/elements/success-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -13727,7 +13727,7 @@ h6 {
 }
 
 .disabled-radio input:checked + label {
-  background: url(/images/disabled-radio.png?4eb0e34bf41b6cedb1a8e8c537ec0a93) no-repeat center center/cover;
+  background: url(/images/img/elements/disabled-radio.png) no-repeat center center/cover;
   border: none;
 }
 
@@ -13917,7 +13917,7 @@ h6 {
 ============================================================================================ */
 
 .recent_update_area {
-  background: url(/images/recent_up_bg.png?2ce2bc766c86eca3caad5e21670d24bb) no-repeat center;
+  background: url(/images/img/recent_up_bg.png) no-repeat center;
 }
 
 .recent_update_area.made_white {
@@ -14069,7 +14069,7 @@ h6 {
 
 .testimonials_area {
   position: relative;
-  background: url(/images/testimonial_bg.png?f114a9e0770d5e0ff947651a6ee9f473) no-repeat center;
+  background: url(/images/img/testimonial_bg.png) no-repeat center;
   background-size: cover;
 }
 

@@ -3,7 +3,7 @@
 
 .home_banner_area {
     z-index: 1;
-    background: url(../img/banner/canvas.png) no-repeat center center;
+    background: url(/images/img/banner/canvas.png) no-repeat center center;
     background-size: cover;
     .banner_inner {
         width: 100%;
@@ -54,7 +54,7 @@
         min-height: 780px;
         z-index: 1;
         .overlay {
-            background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
+            background: url(/images/img/banner/banner-2.jpg) no-repeat scroll center center;
             opacity: .5;
             height: 125%;
             position: absolute;
@@ -96,7 +96,7 @@
     position: relative;
     min-height: 430px;
     z-index: 1;
-    background: url(../img/banner/canvas.png) no-repeat center center;
+    background: url(/images/img/banner/canvas.png) no-repeat center center;
     background-size: cover;
     .banner_inner {
         position: relative;

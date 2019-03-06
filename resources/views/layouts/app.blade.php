@@ -9,5 +9,7 @@
     </head>
     <body>
         @yield('content')
+        <script src="{{asset('js')}}/app.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
     </body>
 </html>

@@ -12,7 +12,7 @@
     <div class="row text-center">
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="new_games_item">
-          <img src="img/b_map1.png" alt="">
+          <img src="{{asset('images')}}/img/b_map1.png" alt="">
           <div class="upcoming_title">
             <h3><a href="#">Bounce  Tru</a></h3>
           </div>

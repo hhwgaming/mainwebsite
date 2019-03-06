@@ -67,7 +67,7 @@
 ============================================================================================ */
 
 .recent_update_area {
-    background: url(../img/recent_up_bg.png) no-repeat center;
+    background: url(/images/img/recent_up_bg.png) no-repeat center;
     &.made_white {
         background: #fff;
     }
@@ -206,7 +206,7 @@
 
 .testimonials_area {
     position: relative;
-    background: url(../img/testimonial_bg.png) no-repeat center;
+    background: url(/images/img/testimonial_bg.png) no-repeat center;
     background-size: cover;
 }
 
