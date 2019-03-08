@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-@include('include.topnav')
 @include('include.home_banner')
 @include('include.event')
 @include('include.screen_gallery')

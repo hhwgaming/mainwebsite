@@ -7,8 +7,11 @@
         <title>{{ config('app.name', 'HHW Gaming') }}</title>
         <link href="{{asset('css')}}/app.css" rel="stylesheet">
         <link href="{{asset('css')}}/login_main_style.css" rel="stylesheet">
+        <link href="{{asset('css')}}/Registration-Form-with-Photo.css" rel="stylesheet">
+        
     </head>
     <body>
+        @include('include.topnav')
         @yield('content')
         <script src="{{asset('js')}}/app.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>

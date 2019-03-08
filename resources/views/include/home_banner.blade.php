@@ -1,5 +1,5 @@
 <!--================Home Banner Area =================-->
-	<section class="home_banner_area">
+	<section class="home_banner_area" style="margin-top:100px">
 		<div class="banner_inner">
 			<div class="container">
 				<div class="row">
