@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="../assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="../assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="../assets/css/Header-Blue.css">
+    <link rel="stylesheet" href="../assets/css/Header-Dark.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="../assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="../assets/css/Newsletter-Subscription-Form.css">
+    <link rel="stylesheet" href="../assets/css/Registration-Form-with-Photo.css">
+    <link rel="stylesheet" href="../assets/css/SIdebar-Responsive-2.css">
+    <link rel="stylesheet" href="../assets/css/SIdebar-Responsive-2.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/Team-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Video-Parallax-Background-v2.css">
+	   <link rel="stylesheet" href="../assets/css/login_main_style.css">
+	  <script>
+	 $(function() {
+	 $.LoadingOverylay("show");
+	 setTimeout(function(){
+	 $.LoadingOverylay("hide");
+	 }, 3000);
+     });
+	 </script>
+
+</head>
+
+<body>
+
+    <div class="authetica" style="background-color:#eef5f5;padding-top:43px;">
+    <div id="authenticaHidder" style="background-color:#d0f9bc;margin-top:0px;height:70px;padding-top:15px;  visibility : hidden">
+        <h4 class="text-center">Authenticating...</h4>
+    </div>
+</div>
+
+
+	<div class="body_wrapper" style="background-image:url(bg.jpg); ">
+    <div class="form_wrapper">
+        <form method="post"><span class="form_title" style="font-family:ABeeZee, sans-serif;">Login</span>
+		  <p class="text-justify" id="incorrectDetail" style="color:rgb(255,7,7);font-size:17px; visibility:hidden">Incorrect Email And Password</p>
+            <div class="wrap_input"><span class="input_label" style="font-family:ABeeZee, sans-serif;">Email</span><input type="email"  name="email" placeholder="Enter your Email" class="form-control input_text" id="inputEmail" style="font-family:ABeeZee, sans-serif;" /></div>
+            <div class="wrap_input"><span class="input_label" style="font-family:ABeeZee, sans-serif;">Password</span><input type="password" name="password" placeholder="Enter your password" class="form-control input_text" id="inputPassword" style="font-family:ABeeZee, sans-serif;" /></div>
+            <div
+                class="text-right" style="padding-bottom:31px;padding-top:8px;"><a href="#" class="forgot_link" style="font-family:ABeeZee, sans-serif;">Forgot Password?</a></div>
+    <div class="login_btn">
+        <div class="wrap_btn">
+            <div class="bg_btn"></div><button class="btn btn-primary btn_icon" type="button" id="btn_signIn">LOGIN</button></div>
+    </div>
+    </form>
+</div>
+</div>
+
+    <script src="../assets/js/jquery-3.3.1.min.js"> </script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/created_accounts/validate_accountLoging.js"></script>
+	<script src="../assets/js/loadingoverlay.min.js"></script>
+
+    <script src="../assets/js/jquery-waitforit.js"></script>
+	 <script type="application/javascript">
+
+	$(document).ready(function() {
+
+
+
+	  $.LoadingOverylay("show");
+	 setTimeout(function(){
+	 $.LoadingOverylay("hide");
+	 }, 3000);
+
+
+
+ });
+
+
+	 </script>
+
+</body>
+
+</html>
